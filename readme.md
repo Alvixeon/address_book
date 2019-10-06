@@ -1,0 +1,23 @@
+Summary
+
+Overall Approach:
+I do not have any experience with API development, but to my understanding it involves the handling of data that would be passed in relation to the functional requirements. I looked at some of the functions that an address book would have along with the requirements layed out in the description to create the necessary methods to perform the specified tasks along with testing functions (namely the login/out).
+
+Platform:
+I chose to do this project in Windows using Python 2.7 with the Python IDLE IDE. The reason for choosing this was because it was easily accessible for me and I have some familiarity with the IDE. If I already had it set up and running, I would have done it on Linux because a lot of my development experience in Python was done in Ubuntu.
+
+Features:
+The project includes some basic features to demonstrate functionality:
+- Log in/out
+- Creating user
+- Modifying user information (basic)
+- Deleting user (logged in only with password)
+- Display list of registered users (for testing only)
+- Display list of contacts for logged in user
+- Load user and contact information (basic)
+
+Future functional additions:
+There are a lot of basic features to the code. The main issue is the change it from a class object to an actual API. The other major change I would've liked to do was to store user and contact information in a MySQL database and use queries to pull all the data needed from there, eliminating the need to read and write to text files and replacing it with querying and updating the database. This would take maybe another 2-3 hours to set everything up and changing the tests and the address book to reflect the changes.
+
+Future code enhancements:
+The testing is very basic and could be expanded to have more coverage. It only covers some of the functionality problems that I see when I was writing the code. The address book code could also be improved in terms of error handling and feature flexibility. For the sake of demonstrating functionality, a lot of the features have strict constraints that would not be realistic in real-world applications.
